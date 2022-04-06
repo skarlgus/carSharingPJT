@@ -249,7 +249,7 @@
 						var date = d.getFullYear() + '' + (d.getMonth() + 1)
 								+ '' + d.getDate() + '' + d.getHours() + ''
 								+ d.getMinutes() + '' + d.getSeconds();
-						IMP.init("imp97285928");
+						IMP.init("key");
 
 						IMP.request_pay({//결제를 위해 전달해주는 정보
 							merchant_uid : 'selcar_' + date,//상점거래ID
